@@ -3,5 +3,6 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
+  base: '/CleaningService/',   // must match your GitHub repo name exactly
   server: { port: 3000 },
 })
